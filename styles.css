@@ -897,6 +897,78 @@ Single Product Page
   margin-bottom: 0;
 }
 
+.social {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social a {
+  width: 30px;
+  height: 30px;
+  display: block;
+  color: rgba(255, 255, 255, 0.7)
+}
+
+.social a:hover {
+  transform: scale(1.5);
+  color: var(--clr-white);
+}
+
+.contact {
+  padding: 50px 0;
+  text-align: center;
+  margin: 50px 0;
+  border: solid;
+  background: url('./images/about_bg.png');
+  color: #fff;
+
+}
+
+.help {
+  margin-bottom: 40px;
+}
+
+.help h3 {
+  font-weight: 900;
+}
+
+.help p {
+  width: 80%;
+  color: #fff;
+  margin: 10px auto;
+}
+
+.tel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tel h3 {
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+.tel a {
+  text-decoration: none;
+  border: 1px solid #28a745;
+  background-color: rgb(83 167 40 / 42%);
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px 50px;
+  margin-left: 20px;
+
+}
+
+.tel a:hover {
+  background-color: rgb(83 167 40 / 62%);
+
+}
+
 @media screen and (min-width: 992px) {
   .single-product-center {
     grid-template-columns: 1fr 1fr;
